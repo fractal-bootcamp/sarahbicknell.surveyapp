@@ -14,7 +14,7 @@ async function main () {
     })
 }
 
-const allSurveys = await client.survey.findMany()
+const allSurveys = client.survey.findMany()
 console.dir(allSurveys)
 
 export default client 
